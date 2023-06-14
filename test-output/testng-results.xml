@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-14T20:29:37 IST" name="Default suite" finished-at="2023-06-14T20:30:35 IST" duration-ms="57712">
+    <groups>
+    </groups>
+    <test started-at="2023-06-14T20:29:37 IST" name="Default test" finished-at="2023-06-14T20:30:35 IST" duration-ms="57712">
+      <class name="practicetest.SauceDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:practicetest.SauceDemo@52b1beb6]" started-at="2023-06-14T20:29:37 IST" name="beforeTest" finished-at="2023-06-14T20:29:44 IST" duration-ms="7165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="LoginCheck(java.lang.String,java.lang.String)[pri:0, instance:practicetest.SauceDemo@52b1beb6]" started-at="2023-06-14T20:29:45 IST" name="LoginCheck" data-provider="getTestData" finished-at="2023-06-14T20:30:34 IST" duration-ms="49467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCheck -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:practicetest.SauceDemo@52b1beb6]" started-at="2023-06-14T20:30:34 IST" name="afterTest" finished-at="2023-06-14T20:30:35 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- practicetest.SauceDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
